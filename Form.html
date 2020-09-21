@@ -1,0 +1,86 @@
+<form action="/action_page.php" >
+  <fieldset style="background-color: #99ffcc;padding:20px;">
+    <legend>Student Registration Form</legend>
+	
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname"  placeholder="Enter First name" size="30" required /><br><br>
+	
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" placeholder="Enter Last name" size="30" required /><br><br>
+	
+	<label for="birthday">D O B:</label><br>
+    <input type="date" id="birthday" name="birthday" size="25"  required /><br><br>
+	
+	<label for="phone">Phone number:</label><br>
+    <input type="text" id="phone" name="phone" placeholder="Enter Your Phone Number"  size="30" required /><br><br>
+	
+	 <label for="email"> Email:</label><br>
+     <input type="email" id="email" name="email" placeholder="Enter Your Email - id" size="30" required /><br><br>
+	 
+	 <label>Please select your gender:</label><br>
+  <input type="radio" id="male" name="gender" value="male" required />
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female" required />
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other" required />
+  <label for="other">Other</label><br><br>
+  
+    <label for="psw">Password:</label> <br>
+    <input type="password" placeholder="Enter Password" name="psw" size="30" required />  <br><br> 
+  
+    <label for="psw-repeat">Re-type Password :</label>  <br>
+    <input type="password" placeholder="Retype Password" name="psw-repeat" size="30" required />  <br><br> 
+	
+	<label for="add">Address:</label><br>
+     <textarea id="w3review" name="add" rows="4" cols="50" size="20" style="width:19.3%" required /> 
+     </textarea>
+  <br><br>
+    
+	<hr>
+
+
+              <div>
+                    <h3>ACADEMIC DETAILS:</h3>
+                    <h4 >Post Graduation-</h4>
+                   
+                                                  
+                            <label for="post_graduation">University/Institute:</label>
+                           &nbsp <input type="text" name="post_graduation" id="post_graduation" required ><br>
+                                                
+                            <label for="pg_per">Percentage:</label>
+                           &nbsp&nbsp <input type="text" name="pg_per" id="pg_per" size="27" required ><br>
+                        
+                    
+                    <h4 >Graduation-</h4>
+                                                
+                            <label for="graduation">University/Institute:</label>
+                           &nbsp <input type="text" name="graduation" id="graduation" required ><br>
+                        
+                    
+                              <label for="ug_per">Percentage:</label>
+                           &nbsp&nbsp <input type="text" name="ug_per" id="ug_per" size="27" required ><br>
+                           
+						   
+                    <h4 >Intermediate-</h4>
+                                                
+                            <label for="intermediate">University/Institute:</label>
+                            &nbsp <input type="text" name="intermediate" id="intermediate" required ><br>
+                          
+                            <label for="inter_per">Percentage:</label>
+                            &nbsp&nbsp <input type="text" name="inter_per" id="inter_per" size="27" required ><br>
+                       
+                   
+                    <h4 >Highschool-</h4>
+                                                
+                            <label for="highschool">University/Institute:</label>
+                            &nbsp <input type="text" name="highschool" id="highschool" required ><br>
+                         
+                            <label for="Highschool_per">Percentage:</label>
+                            &nbsp&nbsp <input type="text" name="Highschool_per" id="Highschool_per" size="27" required ><br>
+                        
+                </div><br>
+
+				
+    <input type="submit" value="Submit" background-color="red">
+  </fieldset>
+</form>
